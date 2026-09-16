@@ -40,6 +40,58 @@
     </partitioning>
     <attributes/>
   </transform>
+  <transform>
+    <type>CSVInput</type>
+    <name>CSV file input 2</name>
+    <include_filename>N</include_filename>
+    <header>Y</header>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <ignoreFields>N</ignoreFields>
+    <fields/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>112</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
+  <transform>
+    <type>CSVInput</type>
+    <name>CSV file input 3</name>
+    <include_filename>N</include_filename>
+    <header>Y</header>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <ignoreFields>N</ignoreFields>
+    <fields/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>48</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
   <order/>
   <notepads/>
   <attributes/>
